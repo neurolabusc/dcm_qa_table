@@ -67,7 +67,7 @@ else
 fi
 
 # Convert images.
-cmd="$exenam $endian -b y -z n -f %m_%s_%p -o $outdir $indir"
+cmd="$exenam $endian -b y -z n -i y -f %m_%x_%s_%d -o $outdir $indir"
 echo "Running command:"
 echo $cmd
 $cmd

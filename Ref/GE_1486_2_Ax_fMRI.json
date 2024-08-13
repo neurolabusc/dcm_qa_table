@@ -72,5 +72,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"BidsGuess": ["func","_acq-EPIp2_dir-PA_run-2_bold"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20240730"
+	"ConversionSoftwareVersion": "v1.0.20240812"
 }

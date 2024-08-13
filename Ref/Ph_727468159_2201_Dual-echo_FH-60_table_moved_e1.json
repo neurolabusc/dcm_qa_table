@@ -32,7 +32,7 @@
 	"TablePosition": [
 		0,
 		0,
-		-60.3	],
+		60.3	],
 	"EchoNumber": 1,
 	"EchoTime": 0.007001,
 	"RepetitionTime": 0.650001,
@@ -63,5 +63,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"BidsGuess": ["anat","_acq-SSGRFFE_run-2201_echo-1_part-mag_T2starw"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20240730"
+	"ConversionSoftwareVersion": "v1.0.20240812"
 }

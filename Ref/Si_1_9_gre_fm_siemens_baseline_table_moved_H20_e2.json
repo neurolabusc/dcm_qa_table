@@ -186,5 +186,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "ROW",
 	"BidsGuess": ["fmap","_acq-fm2_magnitude2"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20240812"
+	"ConversionSoftwareVersion": "v1.0.20260416"
 }

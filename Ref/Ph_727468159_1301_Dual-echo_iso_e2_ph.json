@@ -50,7 +50,6 @@
 	"WaterFatShift": 0.950831,
 	"EstimatedEffectiveEchoSpacing": 1.536e-05,
 	"EstimatedTotalReadoutTime": 0.0014592,
-	"AcquisitionDuration": 49.4001,
 	"PixelBandwidth": 457,
 	"PhaseEncodingAxis": "j",
 	"ImageOrientationPatientDICOM": [
@@ -63,5 +62,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"BidsGuess": ["anat","_acq-SSGRFFE_run-1301_echo-2_part-phase_T2starw"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20240812"
+	"ConversionSoftwareVersion": "v1.0.20260416"
 }

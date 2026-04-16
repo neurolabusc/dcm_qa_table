@@ -47,7 +47,6 @@
 	"ReconMatrixPE": 64,
 	"ParallelReductionFactorInPlane": 2,
 	"EffectiveEchoSpacing": 0.000228317,
-	"AcquisitionDuration": 5,
 	"TotalReadoutTime": 0.014384,
 	"PixelBandwidth": 7812.5,
 	"PhaseEncodingDirection": "j",
@@ -72,5 +71,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"BidsGuess": ["func","_acq-EPIp2_dir-PA_run-3_bold"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20240812"
+	"ConversionSoftwareVersion": "v1.0.20260416"
 }

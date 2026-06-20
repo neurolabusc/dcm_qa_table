@@ -16,11 +16,12 @@
 	"ProtocolName": "Dual-echo_iso",
 	"ScanningSequence": "GR",
 	"SequenceVariant": "SS",
+	"PulseSequenceType": "Gradient Echo",
 	"ScanOptions": "OTHER",
-	"PulseSequenceName": "FFE",
+	"SequenceName": "FFE",
 	"ImageType": ["ORIGINAL", "PRIMARY", "PHASE MAP", "P", "FFE", "PHASE"],
 	"SeriesNumber": 1301,
-	"AcquisitionTime": "14:53:7.320000",
+	"AcquisitionTime": "14:53:07.320000",
 	"AcquisitionNumber": 13,
 	"PhilipsRescaleSlope": 1.53455,
 	"PhilipsRescaleIntercept": -3142,
@@ -37,6 +38,7 @@
 	"EchoTime": 0.007001,
 	"RepetitionTime": 0.650001,
 	"MTState": false,
+	"SpoilingState": false,
 	"FlipAngle": 80,
 	"CoilString": "MULTI COIL",
 	"PercentPhaseFOV": 100,
@@ -47,9 +49,13 @@
 	"PhaseEncodingStepsOutOfPlane": 1,
 	"AcquisitionMatrixPE": 72,
 	"ReconMatrixPE": 96,
+	"ParallelReductionFactorInPlane": 1,
+	"ParallelReductionFactorOutOfPlane": 1,
 	"WaterFatShift": 0.950831,
 	"EstimatedEffectiveEchoSpacing": 1.536e-05,
 	"EstimatedTotalReadoutTime": 0.0014592,
+	"AcquisitionDuration": 49.4001,
+	"NumberOfKSpaceTrajectories": 72,
 	"PixelBandwidth": 457,
 	"PhaseEncodingAxis": "j",
 	"ImageOrientationPatientDICOM": [
@@ -62,5 +68,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"BidsGuess": ["anat","_acq-SSGRFFE_run-1301_echo-1_part-phase_T2starw"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260416"
+	"ConversionSoftwareVersion": "v1.0.20260620"
 }

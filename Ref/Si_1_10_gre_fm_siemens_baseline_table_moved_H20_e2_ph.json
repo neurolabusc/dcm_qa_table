@@ -19,6 +19,7 @@
 	"ProtocolName": "gre_fm_siemens_baseline_table_moved_H20",
 	"ScanningSequence": "GR",
 	"SequenceVariant": "SP",
+	"PulseSequenceType": "Spoiled Gradient Echo",
 	"SequenceName": "*fm2d2",
 	"ImageType": ["ORIGINAL", "PRIMARY", "P", "ND", "PHASE"],
 	"NonlinearGradientCorrection": false,
@@ -35,10 +36,10 @@
 	"EchoNumber": 2,
 	"EchoTime": 0.00492,
 	"RepetitionTime": 0.746,
+	"SpoilingState": true,
 	"FlipAngle": 90,
 	"EchoTime1": 0.00246,
 	"EchoTime2": 0.00492,
-	"PartialFourier": 1,
 	"BaseResolution": 64,
 	"ShimSetting": [
 		605,
@@ -63,6 +64,8 @@
 	"PhaseEncodingSteps": 64,
 	"AcquisitionMatrixPE": 64,
 	"ReconMatrixPE": 64,
+	"ParallelReductionFactorInPlane": 1,
+	"ParallelReductionFactorOutOfPlane": 1,
 	"PixelBandwidth": 1500,
 	"DwellTime": 5.2e-06,
 	"PhaseEncodingDirection": "i",
@@ -188,5 +191,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "ROW",
 	"BidsGuess": ["fmap","_acq-fm2_phasediff"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260416"
+	"ConversionSoftwareVersion": "v1.0.20260620"
 }

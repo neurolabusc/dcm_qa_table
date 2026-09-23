@@ -24,7 +24,7 @@
 	"ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "MAGNITUDE"],
 	"NonlinearGradientCorrection": false,
 	"SeriesNumber": 7,
-	"AcquisitionTime": "17:21:03.040000",
+	"AcquisitionTime": "17:21:02.667500",
 	"AcquisitionNumber": 1,
 	"SliceThickness": 3,
 	"SpacingBetweenSlices": 3,
@@ -189,5 +189,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "ROW",
 	"BidsGuess": ["fmap","_acq-fm2_magnitude2"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260620"
+	"ConversionSoftwareVersion": "v1.0.20260915"
 }

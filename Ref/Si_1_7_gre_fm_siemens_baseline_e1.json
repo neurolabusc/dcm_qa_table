@@ -32,7 +32,7 @@
 	"TablePosition": [
 		0,
 		0,
-		-0	],
+		0	],
 	"EchoNumber": 1,
 	"EchoTime": 0.00246,
 	"RepetitionTime": 0.746,
@@ -189,5 +189,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "ROW",
 	"BidsGuess": ["fmap","_acq-fm2_magnitude1"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260915"
+	"ConversionSoftwareVersion": "v1.0.20261024"
 }
